@@ -27,8 +27,8 @@ const Header = ({autenticado}) => {
               ) : (
               <>
                 <MenuRight href="/">Home</MenuRight>
-                <Button title="Entrar" />
-                <Button title="Cadastrar" />
+                <a href="./login"><Button title="Entrar" /></a>
+                <a href="./subscribe"><Button title="Cadastrar" /></a>
               </>)}
           </Row>
       </Container>
